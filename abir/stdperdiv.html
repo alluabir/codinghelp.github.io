@@ -28,141 +28,35 @@
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
-
+				<!-- Responsive navbar -->
 				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</a>
 				<a href="index.html"><img  class="logoImg" src="img/logo2.png"/></a>
 				<a href="index.html"><h1 class="brand">Official SSC & HSC Student Community</h1></a>
-
+				<!-- navigation -->
 				<nav class="pull-right nav-collapse collapse">
 				<ul id="menu-main" class="nav">
-					<li><a title="Home" href="index.html" id="active">Home</a></li>
+					<li><a title="Home" href="index.html">Home</a></li>
 					<li><a title="Services" href="member.html">Member Directory</a></li>
 					<li><a title="Gallery" href="gallery.html">Gallery</a></li>
 					<li><a title="Contact" href="contact.html">Contact</a></li>
-					<li><a title="Contact" href="login.html">Login</a></li>
+					<li><a title="Contact" href="contact.html">Login</a></li>
 				</ul>
 				</nav>
-				<!--<form class="navbar-form">
-				  <input class="span2" type="text" placeholder="Search">
-				  <button type="submit" class="btn">Search</button>
-				</form>-->
 			</div>
 		</div>
 	</div>
 </div>
-<!--Header area -->
-
-<div id="header-wrapper" class="header-slider">
 	
-	<div class="sliderImg" >
-		<img name="slide" src="img/slider/5.jpg"/>
-		<script language="JavaScript">
-				var i = 0;
-				var path = new Array();
- 
-				// LIST OF IMAGES
-				path[0] = "img/slider/5.jpg";
-				path[1] = "img/slider/3.jpg";
-				path[2] = "img/slider/4.jpg";
-				path[3] = "img/slider/2.gif";
-			
-				function swapImage()
-				{
-					document.slide.src = path[i];
-					if(i < path.length - 1) 
-						i++; 
-					else 
-						i = 0;
-					setTimeout("swapImage()",4000);
-				}
-				window.onload=swapImage;
-			</script>
-		
-	</div>
-</div>
-
-<!-- end spacer section -->
-<!-- section: team -->
-<section id="about" class="section" style="padding-bottom:40px">
-<div class="container">
-	<h4 class="mistitle">Our Mission</h4>
-	<div class="row">
-		<div class="span6 offset1 flyLeft">
-			<div class="mission">
-				<h2>One of the Most <strong>Trusted Community</strong></h2>
-				<p>
-					Our mission is to gather all students of SSC and HSC batches of Bangladesh. Its very helpful for those guys who are want to perform any events or get job facilities which are unemployed. The main aim and objective of community is to bring adjustment between the resources available and felt needs of the people.
-				</p>
-			</div>
-		</div>
-		<div class="span4 flyRight">
-			<div class="aligncenter">
-				<img src="img/icons/creativity3.png" width="240" height="240" alt="" />
-			</div>
-		</div>
-	</div>
-	
-</div>
-<!-- /.container -->
-</section>
-<!-- end section: team -->
-<!-- section: services -->
-<section id="services" class="section orange" style="padding-bottom:30px">
-<div class="container">
-	<h4 class="whytitle">Useful Features</h4>
-	<!-- Four columns -->
-	<div class="row">
-		<div class="span3 animated-fast flyIn serviceArea">
-			<div class="service-box">
-				<a href="resume.html"><img src="img/why/job.png" alt="" width="200" height="200"/></a>
-				<a href="resume.html" class="indexLink"><h2>Job Facilities</h2></a>
-				<p>
-					Here Anyone can drop his Resume. People who are working in a company, provide jobs those who are unemployed.
-				</p>
-			</div>
-		</div>
-		<div class="span3 animated flyIn serviceArea">
-			<div class="service-box">
-				<img src="img/why/tip.png" alt=""  width="200" height="200"/>
-				<h2>Tips & Tricks</h2>
-				<p>
-					People of this Community can share their Tips and Tricks to everyone.
-				</p>
-			</div>
-		</div>
-		<div class="span3 animated-fast flyIn serviceArea">
-			<div class="service-box">
-				<a href="software.html"><img src="img/why/software.png" alt=""  width="200" height="200"/></a>
-				<a href="software.html" class="indexLink"><h2>Important Softwares</h2></a>
-				<p>
-					Registered people can download important software from this website 
-				</p>
-			</div>
-		</div>
-		<div class="span3 animated-slow flyIn serviceArea">
-			<div class="service-box">
-				<img src="img/why/blog.png" alt=""  width="200" height="200"/>
-				<h2>Write Blogs</h2>
-				<p>
-					Registered people can write blogs and also read others blogs and do comment.
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-</section>
-
-
-
-<section class="section" style="padding-top:10px; padding-bottom:45px">
+<section id="service" class="lightGray succ">
 	<div class="container">
-		<div class="row">
+
+		<div class="row serviceDiv">
 			<div class="counter">
-				<h4 class="successtitle successtitle2">Students Per Division</h4>
-				<p class="successPara">Number Of the members or Students per Division of Bangladesh</p>
+				<h2>Students Per Division</h2>
+				<p>Number Of the members or Students per Division of Bangladesh</p>
 			</div>
-			<div class="span2 offset1 animated-fast flyIn">
+			<div class="span2 offset1 flyIn">
 				<div class="people">
 					<!--<img class="team-thumb img-circle" src="img/team/img-1.jpg" alt="" />-->
 					<div class="team-thumb img-circle leftSuccess">
@@ -171,7 +65,7 @@
 					<h3>Dhaka</h3>
 				</div>
 			</div>
-			<div class="span2 animated-slow flyIn">
+			<div class="span2 flyIn">
 				<div class="people">
 					<!--<img class="team-thumb img-circle" src="img/team/img-2.jpg" alt="" />-->
 					<div class="team-thumb img-circle leftSuccess">
@@ -181,7 +75,7 @@
 				</div>
 				
 			</div>
-			<div class="span2 animated flyIn">
+			<div class="span2 flyIn">
 				<div class="people">
 					<!--<img class="team-thumb img-circle" src="img/team/img-3.jpg" alt="" />-->
 					<div class="team-thumb img-circle leftSuccess">
@@ -190,7 +84,7 @@
 					<h3>Comilla</h3>
 				</div>
 			</div>
-			<div class="span2 animated-fast flyIn">
+			<div class="span2 flyIn">
 				<div class="people">
 					<!--<img class="team-thumb img-circle" src="img/team/img-4.jpg" alt="" />-->
 					<div class="team-thumb img-circle leftSuccess">
@@ -199,41 +93,85 @@
 					<h3>Barishal</h3>
 				</div>
 			</div>
-			
-			<div class="span2 animated-fast flyIn">
+			<div class="span2 flyIn">
 				<div class="people">
-					<!--<img class="team-thumb img-circle" src="img/team/img-4.jpg" alt="" />-->
+					<!--<img class="team-thumb img-circle" src="img/team/img-5.jpg" alt="" />-->
 					<div class="team-thumb img-circle leftSuccess">
-						<span class="count">960<span>
+						<span class="count">800<span>
 					</div>
 					<h3>Sylhet</h3>
 				</div>
 			</div>
 		</div>
+		
+		
+		<div class="row serviceDiv">
+			<div class="span2 offset1 flyIn">
+				<div class="people">
+					<!--<img class="team-thumb img-circle" src="img/team/img-1.jpg" alt="" />-->
+					<div class="team-thumb img-circle leftSuccess">
+						<span class="count">700<span>
+					</div>
+					<h3>Rajshahi</h3>
+				</div>
+			</div>
+			<div class="span2 flyIn">
+				<div class="people">
+					<!--<img class="team-thumb img-circle" src="img/team/img-2.jpg" alt="" />-->
+					<div class="team-thumb img-circle leftSuccess">
+						<span class="count">500<span>
+					</div>
+					<h3>Dinajpur</h3>
+				</div>
+				
+			</div>
+		</div>
+
+		
+	</div>
+	
+	<!--<a href="index.html" class="successLink">Back</a>-->
+	<div class="row">
+		<div class="succMore" style="margin-bottom:0;">
+			<a href="index.html" style="padding:7px 14px">Back</a>
+		</div>
+	</div>
+</section>
+
+<!--	
+<section class="section black">
+	<div class="container">
 		<div class="row">
-			<div class="succMore">
-				<a href="stdperdiv.html">See More</a>
+			<div class="span6 footerleft animated flyIn">
+				<h3>FAQ</h3>
+				<ul>
+					<i class="icon-circled icon-bgdark icon-question"></i><li><a href="">Question 1</a></li>
+					<i class="icon-circled icon-bgdark icon-question"></i><li><a href="">Question 2</a></li>
+					<i class="icon-circled icon-bgdark icon-question"></i><li><a href="">Question 3</a></li>
+					<i class="icon-circled icon-bgdark icon-question"></i><li><a href="">Question 4</a></li>
+					<i class="icon-circled icon-bgdark icon-question"></i><li><a href="">Question 5</a></li>
+				</ul>
+				<div class="faqMore">
+					<a href="faq.html" class="footerLink">See More</a>
+				</div>
+			</div>
+			<div class="span6 footerright animated flyIn">
+				<h3>All Services</h3>
+				<ul>
+					<img src="img/ser.png"/><li><a href="">Student Visa Processing </a></li>
+					<img src="img/ser.png"/><li><a href="">Job Visa Processing </a></li>
+					<img src="img/ser.png"/><li><a href="">Visit Visa Processing </a></li>
+					<img src="img/ser.png"/><li><a href="">Family Migration </a></li>
+					<img src="img/ser.png"/><li><a href="">Business Migration </a></li>
+				</ul>
+				<div class="serviceMore">
+					<a href="service.html" class="footerLink">See More</a>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
-
-
-<section class="spacer bg3">
-<div class="container">
-	<div class="row">
-		<div class="span12 aligncenter flyLeft">
-			<blockquote class="large">
-				 This is a community type website. Through this site we can gather people who have passed SSC and HSC from any division of Bangladesh.  
-			</blockquote>
-		</div>
-		<div class="span12 aligncenter flyRight">
-			<i class="icon-group icon-10x"></i>
-		</div>
-	</div>
-</div>
-</section>
-
+-->
 
 <footer>
 <div class="container">
